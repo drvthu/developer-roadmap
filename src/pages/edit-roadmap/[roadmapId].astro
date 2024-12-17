@@ -1,0 +1,7 @@
+---
+import { RoadmapEditorPage } from '../../components/CustomRoadmap/RoadmapEditorPage';
+
+const { roadmapId } = Astro.params;
+---
+
+<RoadmapEditorPage roadmapId={roadmapId ?? ''} />
